@@ -1,0 +1,232 @@
+body {
+  font-family: sans-serif;
+  background-color: #1e202b;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.navColor {
+  padding: 40px 0;
+}
+.fontf {
+  font-size: 10px;
+  color: #bfc1c8;
+}
+
+.nav-link {
+  padding: 0px 25px !important ;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 30px;
+}
+.nav-link:focus {
+  border-color: #009ad8;
+  color: #009ad8;
+}
+
+.head {
+  background-color: #1e202b;
+}
+.nav-link:hover {
+  border-color: #009ad8;
+  color: #009ad8;
+}
+.navbar {
+  --bs-navbar-toggler-focus-width: 0;
+}
+
+@media screen and ((max-width: 990px )) {
+  .navbar-nav {
+    background-color: #262936 !important;
+    border-radius: 10px;
+  }
+  .nav-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .nav-link:hover {
+    border-color: transparent;
+    color: #009ad8;
+  }
+  .nav-link:focus {
+    border-color: transparent;
+    color: #009ad8;
+  }
+}
+.act-link {
+  color: white !important ;
+}
+.toggle {
+  color: #ffffff;
+  padding: 20px;
+  transition: all 0.2s;
+  border: 2px solid transparent;
+  border-radius: 50px;
+}
+.toggle:hover {
+  border-color: #009ad8;
+  color: #009ad8 !important;
+}
+
+/********************************************************************************************/
+
+.weather {
+  background-image: url(../img/banner.png);
+  background-size: cover;
+  height: 350px;
+}
+.inputt {
+  padding: 70px 0;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 15px !important;
+
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #1e202b;
+  background-clip: padding-box;
+  border: none;
+  border-radius: 30px !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.change-color {
+  color: #7c7e86 !important;
+}
+.form-control::placeholder {
+  color: #7c7e86;
+  font-size: 13px;
+}
+
+.d {
+  position: absolute;
+  top: 13px;
+  left: 30px;
+  bottom: 5px;
+}
+
+.form-control:focus {
+  color: white;
+  background-color: #1e202b;
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
+}
+.btn-b {
+  position: absolute;
+  top: 5px;
+  right: 4px;
+  bottom: 5px;
+  padding: 10px 40px !important;
+  color: white;
+  background-color: #009ad8;
+  border: 0px;
+  border-radius: 30px !important;
+}
+.btn:hover {
+  padding: 10px 40px !important;
+  color: white;
+  background-color: #009ad8;
+}
+.btn-f {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  bottom: 5px;
+  padding: 10px 40px !important;
+  color: white;
+  background-color: #009ad8;
+  border: 0px;
+  border-radius: 30px !important;
+}
+.btn-x {
+  padding: 10px 15px !important;
+
+  position: absolute;
+  right: 110px;
+  color: white;
+  background-color: #009ad8;
+  border: 0px;
+  border-radius: 30px !important;
+}
+.x:hover {
+  padding: 8px 15px !important;
+
+  color: white !important;
+  background-color: #009ad8;
+}
+
+/*****************************************************************/
+.row-head {
+  border-color: transparent !important;
+  background-color: #323544;
+}
+.footer {
+  background-color: #262936;
+}
+
+.num {
+  font-weight: 700;
+  font-size: 90px;
+}
+.info {
+  color: #9b9da3;
+}
+.mist,
+.sunny,
+.cloudy {
+  color: #009ad8;
+}
+.day,
+.day-two,
+.day-three {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #9b9da3;
+}
+.day-two-head {
+  color: white;
+  background-color: #262936;
+}
+.footer-c {
+  color: #bfc1c8;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.links a {
+  width: 20px;
+  height: 20px;
+  border: 13px solid #1e202b;
+  background-color: #1e202b;
+  border-radius: 50%;
+  color: #009ad8;
+}
+.links a:hover {
+  color: white !important;
+  border-color: #009ad8;
+}
+.map {
+  background-color: #262936;
+  height: 220px;
+}
+.map {
+  height: 300px;
+}
+#contact-control .form-control {
+  border: 2px solid #393c48;
+  background-color: transparent;
+}
+#contact-control .form-control:hover {
+  border-color: #009ad8;
+}
+#contact-control .form-control::placeholder {
+  color: #9b9da3;
+}
+.adress-round {
+  background-color: #262936;
+}
